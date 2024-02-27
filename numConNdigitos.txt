@@ -1,0 +1,6 @@
+public static string numConNdigitos(string texto, int dig)
+        {
+            while (texto.Length < dig)
+            { texto = "0" + texto; }
+            return texto;
+        }
